@@ -29,16 +29,12 @@
 │   ├── real/
 │   │   ├── real_data_01/
 │   │   │   └── rgb                # single modal only contains rgb data
-│   │   ├── 02/
-│   │   │   └── rgb
 │   │   ├── ...
 │   │   └── 07/
 │   │       └── rgb
 │   └── synthetic/
 │       ├── route#1_right_01/
 │       │   └── rgb      
-│       ├── route#1_right_02/
-│       │   └── rgb
 │       └── ...
 ├── multi_modal/
 │   ├── real_data/
@@ -47,29 +43,12 @@
 │   │   │   ├── depth/
 │   │   │   ├── nir/
 │   │   │   └── imu.csv
-│   │   ├── 02/
-│   │   │   ├── rgb/
-│   │   │   ├── depth/
-│   │   │   ├── nir/
-│   │   │   └── imu.csv
-│   │   ├── ...
-│   │   └── 07/
-│   │       ├── rgb/
-│   │       ├── depth/
-│   │       ├── nir/
-│   │       └── imu.csv
+│   │   └── ...
 │   └── synthetic_data/
 │       ├── route#1_right_01/
 │       │   ├── depth/
 │       │   ├── gps/
 │       │   ├── imu.csv               
-│       │   ├── lidar/
-│       │   ├── rgb/
-│       │   └── semantic/
-│       ├── route#1_right_02/
-│       │   ├── depth/
-│       │   ├── gps/
-│       │   ├── imu.csv
 │       │   ├── lidar/
 │       │   ├── rgb/
 │       │   └── semantic/
