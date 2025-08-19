@@ -23,6 +23,59 @@
 > - **Handheld:** RGB-D (ZED2i), NIR (Alvium 1800 U-501), IMU
 > - **Crops/Context tags** 🍓 Strawberry · 🫐 blueberry · 🍇 grape· :herb: canopy · :ear_of_rice: row-crop
 
+> **Folder Summary**
+```swift
+├── single_modal/
+│   ├── real/
+│   │   ├── real_data_01/
+│   │   │   └── rgb                # single modal only contains rgb data
+│   │   ├── 02/
+│   │   │   └── rgb
+│   │   ├── ...
+│   │   └── 07/
+│   │       └── rgb
+│   └── synthetic/
+│       ├── route#1_right_01/
+│       │   └── rgb      
+│       ├── route#1_right_02/
+│       │   └── rgb
+│       └── ...
+├── multi_modal/
+│   ├── real_data/
+│   │   ├── 01/
+│   │   │   ├── rgb/
+│   │   │   ├── depth/
+│   │   │   ├── nir/
+│   │   │   └── imu.csv
+│   │   ├── 02/
+│   │   │   ├── rgb/
+│   │   │   ├── depth/
+│   │   │   ├── nir/
+│   │   │   └── imu.csv
+│   │   ├── ...
+│   │   └── 07/
+│   │       ├── rgb/
+│   │       ├── depth/
+│   │       ├── nir/
+│   │       └── imu.csv
+│   └── synthetic_data/
+│       ├── route#1_right_01/
+│       │   ├── depth/
+│       │   ├── gps/
+│       │   ├── imu.csv               
+│       │   ├── lidar/
+│       │   ├── rgb/
+│       │   └── semantic/
+│       ├── route#1_right_02/
+│       │   ├── depth/
+│       │   ├── gps/
+│       │   ├── imu.csv
+│       │   ├── lidar/
+│       │   ├── rgb/
+│       │   └── semantic/
+│       └── ...
+└── README.md
+```
 ## Part A — Synthetic Dataset 
 
 ### A.1 Environment Overview
