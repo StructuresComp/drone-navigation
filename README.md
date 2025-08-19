@@ -72,7 +72,8 @@ a single GeForce RTX A6000 GPU of 48 GB Memory.
     + downloading **_NEW testing dataset_** (xxx) and move it into `./Dataset/TestDataset/`, 
     which can be found in this [Google Drive link](https://drive.google.com/file/d/).
     
-    + download **_NEW training dataset_** (xxx) which can be found in this [Google Drive link](https://drive.google.com/file/d/). 
+    + download **_NEW training dataset_** (xxx) which can be found in this [Google Drive link](https://drive.google.com/file/d/).
+    + <a href="https://github.com/EvelynZhu88/DroneNav_dataset.git">📥 Download our dataset here </a>.
     
 
 3. Testing Configuration:
