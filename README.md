@@ -68,12 +68,9 @@ a single GeForce RTX A6000 GPU of 48 GB Memory.
     [(Instructions)](https://github.com/NVIDIA/apex#linux) (Under CUDA-xx.x and Cudnn-x.x).
 
 <!--2. Downloading Testing Sets: -->
-2. Downloading Training and Testing Sets:
-    + downloading **_NEW testing dataset_** (xxx) and move it into `./Dataset/TestDataset/`, 
-    which can be found in this [Google Drive link](https://drive.google.com/file/d/).
-    
-    + download **_NEW training dataset_** (xxx) which can be found in this [Google Drive link](https://drive.google.com/file/d/).
-    + <a href="https://github.com/EvelynZhu88/DroneNav_dataset.git">📥 Download our dataset here </a>.
+2. Downloading Training and Testing Sets: 
+
+    + Please check the detail of our dataset from [**here**](datasets/README.md).  
     
 
 3. Testing Configuration:
