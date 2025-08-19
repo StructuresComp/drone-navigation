@@ -230,10 +230,4 @@ AgriNav-Sim2Real/data/Mutimodal/Real_data/
 │   └── imu.csv
 └── ...                         # more runs follow the same pattern
 ```
-**What each part contains**
-- **`Temps/`**: overview stills of the site (for README and qualitative context).
-- **`Insta360/`**: 360° equirectangular videos from walk-throughs (entering/exiting tunnels).  
-  *Tip:* if you de-warp to pinhole “front/left/right”, keep those under `sessions/<name>/rgb_views/`.
-- **`Driscoll_farm/`**: the **primary research data**—per-session folders with **RGB**, **Depth**, **NIR**, and **IMU**.
-
 **IMU CSV schema (Driscoll_farm/***session***)**
