@@ -72,8 +72,8 @@ Our per-frame filenames use **timestamp-based** (e.g., `1753292383498990645`) id
 - `routes/` optional YAMLs describing waypoints used to generate the flights.
 
 ```swift
-AgriNav-Sim2Real/data/synthetic/routes/
-├── route01_left/
+AgriNav-Sim2Real/Mutimodal/data/Synthetic_data/
+├── sim_data_route#1_left_01/
 │ ├── rgb/                       # 1753292383498990645.png, ...
 │ ├── depth/                     # 1753292383498990645.pfm, ...
 │ ├── semantic_mask/             # 1753292383498990645.png (uint8 class IDs)
@@ -212,20 +212,23 @@ With f_x=480, W_{\text{m}}=1.0, Z_{\text{m}}=2.0:
 - `real_farm/<site>/<session>/` forward RGB (±Depth/IMU), `calib/`, and `notes.md`.
 
 ```swift
-AgriNav-Sim2Real/data/real/
-├── Temps/                       # overview photos of the farm/site
-│ ├── Farm_1.jpg
-│ ├── Farm_2.jpg
-│ └── Farm_*.jpg
-├── Insta360/                    # 360° context: walk-throughs (enter/exit tunnel)
-│ ├── Videos/                    # original .insv/.mp4 from Insta360 X3
-│ │ └── VID_20250807_103618_10_068_02_07.mov
-│ │ ├── frames/                  # extracted frames
-└── Driscoll_farm/               # primary multi-sensor farm data
-│ ├── rgb/                       # *.png (e.g., <timestamp>.png)
-│ ├── depth/                     # *.png (16-bit or 32-bit; see note below)
-│ ├── nir/                       # *.png (Alvium 1800 U-501)
-│ ├── imu.csv                    # time-series IMU (see schema)
+AgriNav-Sim2Real/data/Mutimodal/Real_data/
+├── real_data04/
+│   ├── rgb/                    # RGB frames (e.g., 000001.png, ...)
+│   ├── depth/                  # Depth frames (e.g., 000001.png/.exr/.npy, ...)
+│   ├── nir/                    # NIR frames (e.g., 000001.png, ...)
+│   └── imu.csv                 # IMU log for this run
+├── real_data05/
+│   ├── rgb/
+│   ├── depth/
+│   ├── nir/
+│   └── imu.csv
+├── real_data06/
+│   ├── rgb/
+│   ├── depth/
+│   ├── nir/
+│   └── imu.csv
+└── ...                         # more runs follow the same pattern
 ```
 **What each part contains**
 - **`Temps/`**: overview stills of the site (for README and qualitative context).
